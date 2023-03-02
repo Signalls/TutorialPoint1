@@ -8,8 +8,11 @@ using static TutorialPoint.Program;
 
 namespace TutorialPoint
 {
+
     public class Circle : Shapes, IShape
     {
+        public double radius { get; set; }
+
         public double CheckArea()
         {
             return 3.14159 * (radius * radius);
