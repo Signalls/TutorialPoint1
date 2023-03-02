@@ -9,6 +9,7 @@ namespace TutorialPoint
 {
     public class Square : Shapes, IShape
     {
+        
         public double CheckArea()
         {
             return Length * Length;
